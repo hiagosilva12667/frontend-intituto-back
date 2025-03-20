@@ -17,7 +17,7 @@ app.use("/students", studentRoutes);
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/students", studentRoutes);
-app.use("/api/responsibles", responsibleRoutes);
+app.use("/students", studentRoutes);
+app.use("/responsibles", responsibleRoutes);
 
 module.exports = app;
